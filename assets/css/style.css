@@ -102,3 +102,30 @@ h1, h2 {
         transform: scale(1.1);
     }
 }
+
+/* stylying club ethos section */
+
+#club-ethos{
+    height: 600px;
+}
+.inline {
+    display: inline-block;
+}
+
+#left-about{
+    width: 33%;
+    padding-top: 30px;
+    background-color: #ff0000;
+}
+
+#center-about{
+    width: 33%;
+    padding-top: 30px;
+    background-color: #00ff00;
+}
+
+#right-about{
+    width: 33%;
+    padding-top: 30px;
+    background-color: #ffff9e;
+}
