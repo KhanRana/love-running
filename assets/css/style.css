@@ -108,24 +108,55 @@ h1, h2 {
 #club-ethos{
     height: 600px;
 }
-.inline {
+/* .inline {
     display: inline-block;
-}
+    margin: 1rem 0;
+} */
 
 #left-about{
-    width: 33%;
     padding-top: 30px;
-    background-color: #ff0000;
+    width: 30%;
+    float: left;
+}
+
+hr {
+    border-top: solid 1px #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#right-about{
+    padding-top: 30px;
+    width: 30%;
+    float: right;
 }
 
 #center-about{
     width: 33%;
-    padding-top: 30px;
-    background-color: #00ff00;
+    margin: 0 auto;    
 }
 
-#right-about{
-    width: 33%;
-    padding-top: 30px;
-    background-color: #ffff9e;
+
+.right-about-heading {
+    width: 60%;
+    float: left top;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
 }
