@@ -223,7 +223,7 @@ footer{
 }
 
 .social-networks i {
-    font-size: xx-large;
+    font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
@@ -270,6 +270,17 @@ footer{
 
         display: none;
     }
+
+    #times > div {
+        width: 100%;
+        padding: 0;
+        height: 150px;
+        display: block;
+    }
+
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* responsive header menu */
@@ -305,6 +316,10 @@ footer{
         width: 100%;
         text-align: center;
         padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 2;
     }
     
     
