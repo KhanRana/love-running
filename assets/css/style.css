@@ -269,3 +269,28 @@ footer{
         display: none;
     }
 }
+
+/* responsive header menu */
+
+@media screen and (max-width: 700px) {
+    #menu{
+        clear: left;
+        float: left;
+        line-height: 25px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 380px) {
+    #menu li {
+        clear: left;
+        display: block;
+        line-height: 20px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    
+}
+
