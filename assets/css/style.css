@@ -29,13 +29,14 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 4px;
     float: right;
+    padding-top: 20px;
 }
 
 #menu li {
     list-style-type:none;
     margin-right: 30px;
-    float: left;
-    padding-top: 20px;
+    display: inline;
+   
 }
 
 #menu a {
@@ -208,4 +209,22 @@ hr {
     text-align: center;
     border: 1px solid #ffffff;
 
+}
+
+/* footer styling */
+
+footer{
+    height: 150px;
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: xx-large;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
