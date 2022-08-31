@@ -239,6 +239,8 @@ footer{
 #photos > img {
     width: 100%;
 }
+
+
 @media screen and (max-width:1200px) {
     #club-ethos {
         width: 65%;
@@ -272,7 +274,7 @@ footer{
 
 /* responsive header menu */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     #menu{
         clear: left;
         float: left;
@@ -280,6 +282,31 @@ footer{
         margin-left: 30px;
         margin-bottom: 20px;
     }
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading{
+        width: inherit;        
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        width: 100%;
+        text-align: center;
+        padding: 0 20px;
+    }
+    
     
 }
 
